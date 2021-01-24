@@ -1,2 +1,1320 @@
 Hello Artifactory and Sonar
 Hello Worldwar 2003 
+
+
+
+
+
+<!-- www.acnc.com/raid --><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<script src="https://use.typekit.net/nay2flj.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Interactive RAID Tutorial | JetStor</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+	<link href="/_css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="/_css/main.css?_=79610403" type="text/css" />
+    <link rel="stylesheet" href="/_css/shadowbox.css" type="text/css" />
+    <link rel="stylesheet" href="/_css/admin.css" type="text/css" />
+    <link rel="stylesheet" href="/fontbuilder.css" type="text/css" />
+	<link rel="canonical" href="www.acnc.com/raid"/>
+    <meta name="keywords" content="AFA, All Flash, SSD, raid, raid arrays, raid storage, raid system, raid tutorial, what is raid, raid help, raid level" />
+    <meta name="description" content="JetStor’s award winning RAID Tutorial helps users of all backgrounds understand the pros and cons of every RAID level to make information storage solution decisions." />
+
+	<link href="//fast.fonts.com/cssapi/d2e55c6a-d805-4a27-9867-d1ecbc104c83.css" rel="stylesheet" type="text/css" />
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<script src="/_js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="/_js/jquery.block.ui.js"></script>
+    <script src="/_js/shadowbox.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript">
+
+
+
+  var _gaq = _gaq || [];
+
+  _gaq.push(['_setAccount', 'UA-30492450-1']);
+
+  _gaq.push(['_setDomainName', 'acnc.com']);
+
+  _gaq.push(['_trackPageview']);
+
+  _gaq.push(['_trackEvent(RequestQuote, SubmitQuote, ProductID)']);
+
+
+  (function() {
+
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+
+  })();
+
+
+
+</script>
+
+<!--Start of Zopim Live Chat Script-->
+<script type="text/javascript">
+window.$zopim||(function(d,s){var z=$zopim=function(c){
+z._.push(c)},$=z.s=
+d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute('charset','utf-8');
+$.src='//v2.zopim.com/?31cbhrcb3bwO9sdnOnItZ2MZSAERcIMb';z.t=+new Date;$.
+type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
+</script>
+<!--End of Zopim Live Chat Script-->
+</head>
+<body class="page_raid">
+<div id="wrapper">
+	<div id="aboveNav">
+    <div id="logo"><a href="/"><img src="/_images/logo.png" alt="Company logo of Jetstor storage solutions" /></a></div>
+    <div class="get_a_quote">
+    <div class="button">
+      <div class="txt">
+        Click Here for Your
+        <div class="number">Custom Storage Quote</div>
+      </div>
+    </div>
+    <div class="quote_form">
+      <div class="contactBlock">
+        <table cellpadding="4" cellspacing="0" class="txtSmall">
+          <input type="hidden" name="productName" value=""><tbody>
+            <tr><td align="right" colspan="2">
+              <a class="link_phone" href="tel:1.800.213.2667"><img src="/_images/icon_phone.png" class="phone_icon" /> 1.800.213.2667</a>
+              <a href="#" class="btn_close">X</a>
+            </td></tr>
+            <tr><td align="right">Full Name</td><td><input type="text" name="txtName" style="width:100%;"></td></tr>
+            <tr><td align="right">Email</td><td><input type="text" name="txtEmail" style="width:100%;"></td></tr>
+            <tr><td align="right">Phone</td><td><input type="text" name="txtPhone" style="width:100%;"></td></tr>
+            <tr><td align="right" valign="top">What can we spec for you?</td><td><textarea name="txtQuestion" style="width:100%;"></textarea></td></tr><tr><td colspan="2" style="text-align:right;"><input type="image" src="/_images/btnDarkSubmit.gif" name="btnQuoteSubmit_top" width="69" height="19" border="0"></td></tr>
+          </tbody>
+        </table>
+        <script>
+          $(document).ready(function(){
+            // var tot=6+4;
+            // console.log('6 + 4 = '+tot);
+          });
+        </script>
+      </div>
+    </div>
+  </div>
+  <script>
+    var formScrollStartPos=0;
+    var maxFormScroll=150;
+    jQuery(document).ready(function(){
+      jQuery('html').click(function() {
+        jQuery('.get_a_quote').removeClass('active');
+      });
+      jQuery('.get_a_quote').click(function(){
+        event.stopPropagation();
+      });
+      jQuery('.get_a_quote .button').click(function(){
+        jQuery('.get_a_quote').toggleClass('active');
+        formScrollStartPos=jQuery(window).scrollTop();
+        event.stopPropagation();
+      });
+      jQuery('.quote_form .btn_close').click(function(){
+        jQuery('.get_a_quote').removeClass('active');
+        return false;
+      });
+      jQuery(window).scroll(function(){
+        var diff=formScrollStartPos-jQuery(window).scrollTop();
+        if(diff>maxFormScroll || diff<-maxFormScroll) jQuery('.get_a_quote').removeClass('active');
+      });
+    });
+  </script></div>
+<div class="clear"></div>
+<div id="navBar">
+    <a href="#" id="main_menu_open" class="mobile-block">&nbsp;</a>
+	<span class="nav_links_container">
+		<a href="/" id="home"><span>home</span></a>
+		<a href="/products" id="products"><span>products</span></a>
+		<a href="/solutions" id="solutions"><span>solutions</a>
+		<a href="/raid" id="raidactive"><span>raid</span></a>
+		<a href="/support" id="support"><span>support</span></a>
+		<a href="/company" id="company"><span>company</span></a>
+		<a href="/news" id="news"><span>news</span></a>
+		<a href="/contact" id="contact"><span>contact</span></a>
+		<a href="/blog" id="blog"><span>blog</span></a>
+	</span>
+    <span class="search_container">
+		<span id="search">
+			<form method="get" id="cse-search-box" action="/search.php">
+				<input name="q" type="text" id="searchKeyword" class="searchField" value="" />
+			</form>
+		</span>
+		<a id="searchBtn"></a>
+    </span>
+</div>
+<div class="clear">&nbsp;</div>
+<script>
+  /*
+  NULL
+   */
+</script>
+    <div id="sliderContainer">
+    	<div style="height: 516px;">
+
+			<img src="/_images/bgChalkboard.jpg" alt="RAID.EDU" class="full-img" style="height: 100%; width: auto;" />
+
+						<div class="purple-box box-1">
+            	<div class="title" style="font-family:arial;font-size:20px;color:#2d2d59;font-weight: bold;margin:20px;margin-left:30px;margin-bottom:10px;">Interactive RAID Tutorial | JetStor</div>
+                <div class="copy" style="font-family:arial;font-size:14px;color:#ffffff;margin:20px;margin-left:30px;"><div>Understanding RAID levels would be easy if you could simply watch your data being written to&nbsp;the drives.&nbsp; RAID.EDU&rsquo;s award-winning educational materials do just that, along with listing the pros and cons of every RAID level. Your JetStor system engineer will also make recommendations, which you can use to make the most informed decision about your RAID needs.&nbsp;</div></div>
+            </div>
+
+                        <div class="purple-box box-2">
+            	<div class="title" style="font-family:arial;font-size:20px;color:#2d2d59;font-weight: bold;margin:20px;margin-left:30px;margin-bottom:10px;">Choose a specific RAID level below</div>
+                <div id="raidBtn">
+                	<a href="/raidedu/0" id="raid0"><span>0</span></a>
+                    <a href="/raidedu/1" id="raid1"><span>1</span></a>
+                    <a href="/raidedu/2" id="raid2"><span>2</span></a>
+                    <a href="/raidedu/3" id="raid3"><span>3</span></a>
+                    <a href="/raidedu/4" id="raid4"><span>4</span></a>
+                    <a href="/raidedu/5" id="raid5"><span>5</span></a>
+                    <a href="/raidedu/6" id="raid6"><span>6</span></a>
+                    <a href="/raidedu/10" id="raid10"><span>10</span></a>
+                    <a href="/raidedu/50" id="raid50"><span>50</span></a>
+                    <a href="/raidedu/0_1" id="raid01"><span>0+1</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footerToutsContent" style="position:relative;">
+    	<div id="footerToutWrapper" class="container">
+        <div class="col-sm-6 col-1 footer_tout_image">
+    	<div style="position:absolute;top:90px;left:0px;">
+        	<a href="/unix"><img src="/_images/btnUnix.gif" /></a>
+        </div>
+        <div style="position:absolute;top:120px;left:0px;">
+        	<a href="/windows"><img src="/_images/btnWindows.gif" /></a>
+        </div>
+        <!--<div style="position:absolute;top:150px;left:0px;">
+        	<a href="content.php?id=16"><img src="_images/btnDos.gif" /></a>
+        </div>-->
+      
+    </div>
+        <div class="col-sm-6 col-2 text-right">
+		
+		<style>
+			.bl_cornor{-moz-border-radius-bottomleft: 8px; -webkit-border-bottom-left-radius: 8px; border-bottom-left-radius: 8px; -ms-border-radius:8px; }
+			.br_cornor{-moz-border-radius-bottomright: 8px; -webkit-border-bottom-right-radius: 8px; border-bottom-right-radius: 8px; -ms-border-radius:8px; }
+			.new_image_css{
+				margin-top: -45%;
+				width: 100%;
+				margin-left: 1px;
+				height: auto;
+			}
+			.footer_tout_image {
+				background:url(/_images/raidTout1.jpg) no-repeat top left;
+				min-height: 186px;
+			}
+			@media (max-width: 991px) {
+				.footer_tout_image {
+					background-position: bottom center;
+				}
+			}
+		</style>
+
+                                        <div class="col-sm-6">
+				<a href='http://www.acnc.com/solutions/21'>
+                                        <div class="footerToutTitle">
+	                	Consolidating Servers with JetStor                    </div>
+					<div class="footerToutImage bl_cornor br_cornor" style="background: url( '/media/images/site_library/221_touts_turbomachine.jpg' ) no-repeat center; background-size: cover;">
+                    	                    	<img class='width-100' alt='Consolidating servers with fibre RAID jetstor solutions
+' src='/_images/footer_tout_placeholder.png'/>
+                    </div>
+					
+                </a>                </div>
+			                                <div class="col-sm-6">
+				<a href='http://www.acnc.com/solutions/19'>
+                    <div class="footerToutTitle">
+	                	Film editors turn to JetStor                    </div>
+					<div class="footerToutImage bl_cornor br_cornor" style="background: url( '/media/images/site_library/218_touts_film_editors.jpg' ) no-repeat center; background-size: cover;">
+                    	                    	<img class='width-100' alt='Film editors turn to JetStor' src='/_images/footer_tout_placeholder.png'/>
+                    </div>
+                                    </a>                </div>
+			            
+    </div>
+    <div class="clear"></div>
+</div> 
+<img src="/_images/content-overlay-top-dark.png" id="overlayTop" />
+<img src="/_images/content-overlay-bottom.png" id="overlayBottom" />    </div>
+    <div class="clear" style="height:50px;"></div>
+
+	<div id="footer">
+
+	<div id="footerTextLinks">
+	<a href=//www.acnc.com/c/iSCSI_Hybrid_AFA>
+	iSCSI RAID</a>
+	|
+	<a href=//www.acnc.com/c/FC_SAN>
+	FIBER CHANNEL SAN</a>
+	|
+	<a href=//www.acnc.com/c/NAS>
+	UNIFIED STORAGE</a>
+	|
+	<a href=//www.acnc.com/c/DAS>
+	DISK ENCLOSURES</a>
+	|
+	<a href=//www.acnc.com/solutions>
+	SOLUTIONS</a>
+	|
+	<a href=//www.acnc.com/raid>
+	RAID TECHNOLOGY</a>
+	|
+	<a href=//www.acnc.com/support>
+	SUPPORT</a>
+	|
+	<a href=//www.acnc.com/company>
+	COMPANY</a>
+	|
+	<a href=//www.acnc.com/news>
+	NEWS</a>
+	|
+	<a href=//www.acnc.com/contact>
+	CONTACT</a>
+	|
+	<a href=//www.acnc.com/blog>
+	BLOG</a>
+	<br>
+	</div>
+
+	<div style="clear: both; margin-top: 10px;">
+
+		<div class="col-md-5 footer-col footer-col-1">
+
+			<div id="subscribe">
+				<div style="position:relative;top:24px;left:8px;">
+					<p style="font-family: sans-serif !important; left:0px;">WANT TO KNOW MORE ABOUT US? SUBSCRIBE TO OUR NEWSLETTER.</p>
+					<!-- Begin MailChimp Signup Form -->
+					<link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+					<style type="text/css">
+					#mc_embed_signup{
+						background:#C8C8C8;
+						clear:left;
+						font:12px "jaf-bernino-sans-condensed",sans-serif !important;
+						width: 390px;
+						padding-top: 4px;
+					}
+					#mc_embed_signup input.button {
+						float: right !important;
+						background-color: #880000;
+						margin-top: -35px;
+						margin-right: 15px;
+						font:12px "jaf-bernino-sans-condensed",sans-serif !important;
+						height: 22px;
+						line-height: 22px;
+					}
+					#mc_embed_signup input.email {
+						height: 20px !important;
+					}
+					#mc_embed_signup form {
+						padding: 0px;
+					}
+					#mc_embed_signup input.email {
+						display: block;
+						padding: 8px 0;
+						margin: 0 4% 14px 0;
+						text-indent: 5px;
+						width: 58%;
+						min-width: 130px;
+					}
+					#subscribe {
+						padding-top: 8px;
+					}
+					/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+					We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+					</style>
+					<div id="mc_embed_signup">
+					<form action="https://acnc.us9.list-manage.com/subscribe/post?u=2b1285c347250efff5c196c2d&amp;id=02f3e2d54b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+					<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+					<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+					<div style="position: absolute; left: -5000px;"><input type="text" name="b_2b1285c347250efff5c196c2d_02f3e2d54b" tabindex="-1" value=""></div>
+					<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+					</form>
+					</div>
+					<!--End mc_embed_signup-->
+				</div>
+			</div>
+
+		</div>
+
+		<div class="col-md-7 footer-col footer-col-2">
+
+			<div id="socialMedia">
+			  <a href="https://tinyurl.com/6nrqtk3"><img height="16" width="16" border="0" alt="Facebook Icon" src="/_images/facebook.png"></a> &nbsp;
+			  <a href="https://www.youtube.com/jetstorsan"><img height="16" width="16" border="0" alt="You tube Icon" src="/_images/youtube.png"></a> &nbsp;
+			  <a href="https://twitter.com/#!/jetstorsan"><img height="16" width="16" border="0" alt="Twitter Icon" src="/_images/twitter.png"></a> &nbsp;
+			  <a href="https://tinyurl.com/7qns3tz"><img height="16" width="16" border="0" alt="Linked In Icon" src="/_images/linkedin.png"></a> &nbsp;
+			  &nbsp;
+			</div>
+
+			<div id="footerText">
+			 &copy; 1994-2021, Advanced Computer &amp; Network Corporation. All Rights Are Reserved. <a href="//www.acnc.com/legal">Legal</A>.
+<span id="siteseal"><script async type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=7FLsPX4YHUbuZNcbfi6PMveLuep02JL654HMctOFZCHbWCbrx9Qac5VdcS5C"></script></span>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</div>
+
+</div>
+
+<script src="/_js/functions.js" type="text/javascript"></script>
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54ee13cd085313f5" async="async"></script>
+
+
+<div id="acnc-support" style="display:none; overflow:hidden;">
+	
+
+<div class="support_module">
+
+	<div class="header">
+		<img src="/_images/ACNC_KB_Logo.png" alt="" />
+	</div>
+	<div class="success_container">
+		<p class="message">
+		</p>
+	</div>
+
+	<form id="form_support" enctype="multipart/form-data">
+		<div class="row row1">
+			<div class="label">Name <span class="required">*</span></div>
+			<div class="field"><input name="name" type="text" /></div>
+		</div>
+		<div class="row row2">
+			<div class="label">Last Name <span class="required">*</span></div>
+			<div class="field"><input name="lastname" type="text" /></div>
+		</div>
+		<div class="row row3">
+			<div class="label">Age <span class="required">*</span></div>
+			<div class="field"><input name="age" type="number" /></div>
+		</div>
+		<div class="row row4">
+			<div class="label">Email Address <span class="required">*</span></div>
+			<div class="field"><input name="email" type="email" /></div>
+		</div>
+		<div class="row row5">
+			<div class="label">Subject <span class="required">*</span></div>
+			<div class="field"><input name="subject" type="text" /></div>
+		</div>
+		<div class="row row6">
+			<div class="label">JetStor Serial Number</div>
+			<div class="field"><input name="serial" type="text" /></div>
+		</div>
+		<div class="row row7">
+			<div class="label">Message <span class="required">*</span></div>
+			<div class="field"><textarea name="message"></textarea></div>
+		</div>
+		<div class="row row8">
+			<input type="hidden" name="n1" value="6">
+			<input type="hidden" name="op" value="plus">
+			<input type="hidden" name="n2" value="5">
+			<div class="label">What is 6 plus 5 ? <span class="required">*</span></div>
+			<div class="field"><input name="answer" type="text" /></div>
+		</div>
+
+		<div class="row row10">
+			<input type="hidden" name="has_files" value="0" />
+		</div>
+
+		<div class="add">
+			<div class="attachment_container">
+				<div id="content" style="min-width:400px;">
+										<div class="attachments_dropzone dropzone" id="attachments-dropzone">
+						<div class="fallback">
+							<input type="file" name="file1" id="file1" accept=".zip,.rar,.tar,.7z,.tgz" />
+							<input type="file" name="file2" id="file2" accept=".zip,.rar,.tar,.7z,.tgz" />
+						</div>
+					</div>
+				</div>
+				<div id="file_progress">
+					<p><em>Uploading...</em></p>
+					<div id="file_progress_container">
+						<div id="file_progress_bar"></div>
+						<span id="file_progress_val"></span>
+					</div>
+				</div>
+				<p class="instruc" style="margin-top:8px;">
+					<em>You may upload up to <strong>2</strong> files under 100 MB. .ZIP, .RAR, .TAR, .7Z, .TGZ files only</em>
+					<br/>
+					<button class="close_add_images" onclick="close_add_images(); return false;" style="margin: 10px 0 0 0;">Cancel</button>
+				</p>
+				<input type="hidden" name="filename1" id="filename1" />
+				<input type="hidden" name="filename2" id="filename2" />
+			</div>
+			<div class="row row9">
+				<button class="open_add_images" onclick="open_add_images(); return false;">Add Attachments</button>
+			</div>
+		</div>
+
+		<div class="row">
+			<p class="loading">...</p>
+			<button class="submit" type="submit">SEND</button>
+		</div>
+
+	</form>
+
+</div>
+
+<style>
+	.support_module {
+		margin: 0;
+		padding: 0;
+	}
+	.support_module h2 {
+		font-size: 22px;
+		margin: 8px 0 24px 0;
+	}
+	.support_module .header {
+		background: #000000;
+		padding: 16px 0;
+	}
+	.support_module .row {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.support_module .label,
+	.support_module .field {
+		box-sizing: border-box;
+		display: block;
+		float: none;
+	}
+	.support_module .loading {
+		display: none;
+		padding: 13px 30px;
+		font-weight: bold;
+		color: #c51919;
+	}
+	.support_module .success_container {
+		display: none;
+	}
+	.support_module .required {
+		color: #ff2222;
+	}
+	.support_module .label {
+		padding: 4px;
+		line-height: 100%;
+		font-weight: normal;
+		font-family: "open-sans-condensed", Helvetica, Arial, sans-serif;
+		width: auto;
+		font-size: 16px;
+		color: #777777;
+		text-transform: uppercase;
+		word-wrap: normal;
+		text-align: left;
+		margin-top: 6px;
+		margin-bottom: 0px;
+	}
+	.support_module .open_add_images {
+		margin-top: 0;
+	}
+	.support_module .field {
+		width: 100%;
+		padding: 0 5px;
+	}
+	.support_module .field input,
+	.support_module .field textarea {
+		width: 100%;
+		margin: 0;
+		box-sizing: border-box;
+		font-size: 16px;
+		padding: 4px 6px;
+		font-family: "open-sans", Helvetica, Arial, sans-serif;
+	}
+	.support_module input[type="file"] {
+		margin: 0 0 8px 10px;
+		font-size: 16px;
+	}
+	.support_module .field textarea {
+		min-height: 80px;
+	}
+	.support_module button {
+		background: #888888;
+		color: #FFFFFF;
+		border-radius: 5px;
+		padding: 8px 16px;
+		font-size: 14px;
+		border: none;
+		margin-left: 10px;
+		margin-top: 10px;
+		text-transform: uppercase;
+		cursor: pointer;
+		-o-transition: opacity 0.3s;
+		-moz-transition: opacity 0.3s;
+		-webkit-transition: opacity 0.3s;
+		transition: opacity 0.3s;
+		opacity: 1;
+	}
+	.support_module button:hover {
+		opacity: 0.7;
+	}
+	.support_module .submit {
+		background: #bb1215;
+	}
+	.support_module .add {
+		margin: 20px 0 0 0;
+		/* margin-bottom: 30px; */
+	}
+	.support_module .attachment_container {
+		opacity: 0;
+		height: 0;
+		overflow: hidden;
+		-o-transition: opacity 0.25s, height 0.5s, margin 0.5s, padding 0.5s;
+		-moz-transition: opacity 0.25s, height 0.5s, margin 0.5s, padding 0.5s;
+		-webkit-transition: opacity 0.25s, height 0.5s, margin 0.5s, padding 0.5s;
+		transition: opacity 0.25s, height 0.5s, margin 0.5s, padding 0.5s;
+		background: #FAFAFA;
+		border: 1px solid #E4E4E4;
+		padding: 0 20px;
+		margin: 0 5px;
+	}
+	.support_module .attachment_container.active {
+		opacity: 1;
+		height: auto;
+		-o-transition: opacity 0.75s, height 0.5s, margin 0.5s, padding 0.5s;
+		-moz-transition: opacity 0.75s, height 0.5s, margin 0.5s, padding 0.5s;
+		-webkit-transition: opacity 0.75s, height 0.5s, margin 0.5s, padding 0.5s;
+		transition: opacity 0.75s, height 0.5s, margin 0.5s, padding 0.5s;
+		padding: 20px;
+		margin: 10px 5px;
+	}
+	.ui-dialog .ui-dialog-content {
+		overflow: auto !important;
+	}
+	.support_module .success_container .message {
+		background: #8db8ff;
+		border: 1px solid #5e86e8;
+		padding: 10px 20px;
+		margin: 30px 20px;
+		font-size: 17px;
+		color: #FFFFFF;
+		text-align: center;
+		font-weight: bold;
+	}
+	#file_progress {
+		display: none;
+	}
+	#file_progress_container {
+		background: #AAAAAA;
+		padding: 4px;
+		font-size: 14px;
+		text-align: center;
+		border: 1px solid #888888;
+		border-radius: 4px;
+		height: 24px;
+		box-sizing: border-box;
+		position: relative;
+		overflow: hidden;
+		width: 100%;
+		color: #FFFFFF;
+		font-weight: bold;
+	}
+	#file_progress_bar {
+		background: #96c4ff;
+		border: 1px solid #96c4ff;
+		height: 22px;
+		box-sizing: border-box;
+		position: absolute;
+		top: 0;
+		left: 0;
+		border-radius: 4px;
+	}
+	#file_progress_val {
+		height: 21px;
+		width: 100%;
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 0;
+		padding: 3px;
+		box-sizing: border-box;
+		text-shadow: 0 1px 2px #283342;
+		font-family: "open-sans-condensed", Helvetica, Arial, sans-serif;
+	}
+</style>
+
+<script src="/_js/dropzone.js"></script>
+<style>
+@-webkit-keyframes passing-through {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(40px);
+    -moz-transform: translateY(40px);
+    -ms-transform: translateY(40px);
+    -o-transform: translateY(40px);
+    transform: translateY(40px); }
+  30%, 70% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    transform: translateY(0px); }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(-40px);
+    -moz-transform: translateY(-40px);
+    -ms-transform: translateY(-40px);
+    -o-transform: translateY(-40px);
+    transform: translateY(-40px); } }
+@-moz-keyframes passing-through {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(40px);
+    -moz-transform: translateY(40px);
+    -ms-transform: translateY(40px);
+    -o-transform: translateY(40px);
+    transform: translateY(40px); }
+  30%, 70% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    transform: translateY(0px); }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(-40px);
+    -moz-transform: translateY(-40px);
+    -ms-transform: translateY(-40px);
+    -o-transform: translateY(-40px);
+    transform: translateY(-40px); } }
+@keyframes passing-through {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(40px);
+    -moz-transform: translateY(40px);
+    -ms-transform: translateY(40px);
+    -o-transform: translateY(40px);
+    transform: translateY(40px); }
+  30%, 70% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    transform: translateY(0px); }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(-40px);
+    -moz-transform: translateY(-40px);
+    -ms-transform: translateY(-40px);
+    -o-transform: translateY(-40px);
+    transform: translateY(-40px); } }
+@-webkit-keyframes slide-in {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(40px);
+    -moz-transform: translateY(40px);
+    -ms-transform: translateY(40px);
+    -o-transform: translateY(40px);
+    transform: translateY(40px); }
+  30% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    transform: translateY(0px); } }
+@-moz-keyframes slide-in {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(40px);
+    -moz-transform: translateY(40px);
+    -ms-transform: translateY(40px);
+    -o-transform: translateY(40px);
+    transform: translateY(40px); }
+  30% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    transform: translateY(0px); } }
+@keyframes slide-in {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(40px);
+    -moz-transform: translateY(40px);
+    -ms-transform: translateY(40px);
+    -o-transform: translateY(40px);
+    transform: translateY(40px); }
+  30% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    transform: translateY(0px); } }
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1); }
+  10% {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1); }
+  20% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1); } }
+@-moz-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1); }
+  10% {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1); }
+  20% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1); } }
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1); }
+  10% {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1); }
+  20% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1); } }
+.dropzone, .dropzone * {
+  box-sizing: border-box; }
+
+.dropzone {
+  min-height: 150px;
+  border: 2px dashed #aac6e8;
+  background: white;
+  padding: 54px 54px;
+  width: 100%;
+  margin: 20px 0; }
+  .dropzone.dz-clickable {
+    cursor: pointer; }
+    .dropzone.dz-clickable * {
+      cursor: default; }
+    .dropzone.dz-clickable .dz-message, .dropzone.dz-clickable .dz-message * {
+      cursor: pointer; }
+  .dropzone.dz-started .dz-message {
+    display: none; }
+  .dropzone.dz-drag-hover {
+    border-style: solid; }
+    .dropzone.dz-drag-hover .dz-message {
+      opacity: 0.5; }
+  .dropzone .dz-message {
+    text-align: center;
+    margin: 2em 0; }
+  .dropzone .dz-preview {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin: 16px;
+    min-height: 100px; }
+    .dropzone .dz-preview:hover {
+      z-index: 1000; }
+      .dropzone .dz-preview:hover .dz-details {
+        opacity: 1; }
+    .dropzone .dz-preview.dz-file-preview .dz-image {
+      border-radius: 20px;
+      background: #999;
+      background: linear-gradient(to bottom, #eee, #ddd); }
+    .dropzone .dz-preview.dz-file-preview .dz-details {
+      opacity: 1; }
+    .dropzone .dz-preview.dz-image-preview {
+      background: white; }
+      .dropzone .dz-preview.dz-image-preview .dz-details {
+        -webkit-transition: opacity 0.2s linear;
+        -moz-transition: opacity 0.2s linear;
+        -ms-transition: opacity 0.2s linear;
+        -o-transition: opacity 0.2s linear;
+        transition: opacity 0.2s linear; }
+    .dropzone .dz-preview .dz-remove {
+      font-size: 14px;
+      text-align: center;
+      display: block;
+      cursor: pointer;
+      border: none; }
+      .dropzone .dz-preview .dz-remove:hover {
+        text-decoration: underline; }
+    .dropzone .dz-preview:hover .dz-details {
+      opacity: 1; }
+    .dropzone .dz-preview .dz-details {
+      z-index: 20;
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      font-size: 13px;
+      min-width: 100%;
+      max-width: 100%;
+      padding: 2em 1em;
+      text-align: center;
+      color: rgba(0, 0, 0, 0.9);
+      line-height: 150%; }
+      .dropzone .dz-preview .dz-details .dz-size {
+        margin-bottom: 1em;
+        font-size: 16px; }
+      .dropzone .dz-preview .dz-details .dz-filename {
+        white-space: nowrap; }
+        .dropzone .dz-preview .dz-details .dz-filename:hover span {
+          border: 1px solid rgba(200, 200, 200, 0.8);
+          background-color: rgba(255, 255, 255, 0.8); }
+        .dropzone .dz-preview .dz-details .dz-filename:not(:hover) {
+          overflow: hidden;
+          text-overflow: ellipsis; }
+          .dropzone .dz-preview .dz-details .dz-filename:not(:hover) span {
+            border: 1px solid transparent; }
+      .dropzone .dz-preview .dz-details .dz-filename span, .dropzone .dz-preview .dz-details .dz-size span {
+        background-color: rgba(255, 255, 255, 0.4);
+        padding: 0 0.4em;
+        border-radius: 3px; }
+    .dropzone .dz-preview:hover .dz-image img {
+      -webkit-transform: scale(1.05, 1.05);
+      -moz-transform: scale(1.05, 1.05);
+      -ms-transform: scale(1.05, 1.05);
+      -o-transform: scale(1.05, 1.05);
+      transform: scale(1.05, 1.05);
+      -webkit-filter: blur(8px);
+      filter: blur(8px); }
+    .dropzone .dz-preview .dz-image {
+      border-radius: 20px;
+      overflow: hidden;
+      width: 120px;
+      height: 120px;
+      position: relative;
+      display: block;
+      z-index: 10; }
+      .dropzone .dz-preview .dz-image img {
+        display: block; }
+    .dropzone .dz-preview.dz-success .dz-success-mark {
+      -webkit-animation: passing-through 3s cubic-bezier(0.77, 0, 0.175, 1);
+      -moz-animation: passing-through 3s cubic-bezier(0.77, 0, 0.175, 1);
+      -ms-animation: passing-through 3s cubic-bezier(0.77, 0, 0.175, 1);
+      -o-animation: passing-through 3s cubic-bezier(0.77, 0, 0.175, 1);
+      animation: passing-through 3s cubic-bezier(0.77, 0, 0.175, 1); }
+    .dropzone .dz-preview.dz-error .dz-error-mark {
+      opacity: 1;
+      -webkit-animation: slide-in 3s cubic-bezier(0.77, 0, 0.175, 1);
+      -moz-animation: slide-in 3s cubic-bezier(0.77, 0, 0.175, 1);
+      -ms-animation: slide-in 3s cubic-bezier(0.77, 0, 0.175, 1);
+      -o-animation: slide-in 3s cubic-bezier(0.77, 0, 0.175, 1);
+      animation: slide-in 3s cubic-bezier(0.77, 0, 0.175, 1); }
+    .dropzone .dz-preview .dz-success-mark, .dropzone .dz-preview .dz-error-mark {
+      pointer-events: none;
+      opacity: 0;
+      z-index: 500;
+      position: absolute;
+      display: block;
+      top: 50%;
+      left: 50%;
+      margin-left: -27px;
+      margin-top: -27px; }
+      .dropzone .dz-preview .dz-success-mark svg, .dropzone .dz-preview .dz-error-mark svg {
+        display: block;
+        width: 54px;
+        height: 54px; }
+    .dropzone .dz-preview.dz-processing .dz-progress {
+      opacity: 1;
+      -webkit-transition: all 0.2s linear;
+      -moz-transition: all 0.2s linear;
+      -ms-transition: all 0.2s linear;
+      -o-transition: all 0.2s linear;
+      transition: all 0.2s linear; }
+    .dropzone .dz-preview.dz-complete .dz-progress {
+      opacity: 0;
+      -webkit-transition: opacity 0.4s ease-in;
+      -moz-transition: opacity 0.4s ease-in;
+      -ms-transition: opacity 0.4s ease-in;
+      -o-transition: opacity 0.4s ease-in;
+      transition: opacity 0.4s ease-in; }
+    .dropzone .dz-preview:not(.dz-processing) .dz-progress {
+      -webkit-animation: pulse 6s ease infinite;
+      -moz-animation: pulse 6s ease infinite;
+      -ms-animation: pulse 6s ease infinite;
+      -o-animation: pulse 6s ease infinite;
+      animation: pulse 6s ease infinite; }
+    .dropzone .dz-preview .dz-progress {
+      opacity: 1;
+      z-index: 1000;
+      pointer-events: none;
+      position: absolute;
+      height: 16px;
+      left: 50%;
+      top: 50%;
+      margin-top: -8px;
+      width: 80px;
+      margin-left: -40px;
+      background: rgba(255, 255, 255, 0.9);
+      -webkit-transform: scale(1);
+      border-radius: 8px;
+      overflow: hidden; }
+      .dropzone .dz-preview .dz-progress .dz-upload {
+        background: #333;
+        background: linear-gradient(to bottom, #666, #444);
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        -webkit-transition: width 300ms ease-in-out;
+        -moz-transition: width 300ms ease-in-out;
+        -ms-transition: width 300ms ease-in-out;
+        -o-transition: width 300ms ease-in-out;
+        transition: width 300ms ease-in-out; }
+    .dropzone .dz-preview.dz-error .dz-error-message {
+      display: block; }
+    .dropzone .dz-preview.dz-error:hover .dz-error-message {
+      opacity: 1;
+      pointer-events: auto; }
+    .dropzone .dz-preview .dz-error-message {
+      pointer-events: none;
+      z-index: 1000;
+      position: absolute;
+      display: block;
+      display: none;
+      opacity: 0;
+      -webkit-transition: opacity 0.3s ease;
+      -moz-transition: opacity 0.3s ease;
+      -ms-transition: opacity 0.3s ease;
+      -o-transition: opacity 0.3s ease;
+      transition: opacity 0.3s ease;
+      border-radius: 8px;
+      font-size: 13px;
+      top: 130px;
+      left: -10px;
+      width: 140px;
+      background: #be2626;
+      background: linear-gradient(to bottom, #be2626, #a92222);
+      padding: 0.5em 1.2em;
+      color: white; }
+      .dropzone .dz-preview .dz-error-message:after {
+        content: '';
+        position: absolute;
+        top: -6px;
+        left: 64px;
+        width: 0;
+        height: 0;
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        border-bottom: 6px solid #be2626; }
+</style>
+
+
+<script>
+Dropzone.autoDiscover = false;
+/* Dropzone.options.attachmentsDropzone = { // The camelized version of the ID of the form element
+	paramName: "file",
+	url: "/_ajax/support_uploads.php",
+	// data: { do: 'images' },
+	// acceptedFiles: 'image/*',
+	acceptedFiles: '.zip,.rar,.tar,.7z',
+	// acceptedFiles: 'application/zip,application/x-rar-compressed,application/x-tar,application/x-7z-compressed',
+	// acceptedMimeTypes: 'application/zip,application/x-rar-compressed,application/x-tar,application/x-7z-compressed',
+	// previewsContainer: "#attachments_dropzone",
+	dictDefaultMessage: "<strong style=\"font-size:150%;\">Drag-and-drop files here (zip, rar, tar, 7z)</strong><br/><br/>You can also <u>click here</u> to browse your PC to add multiple files.",
+	uploadMultiple: true,
+	parallelUploads: 1,
+	maxFiles: 2,
+	maxFilesize: 10,
+	addRemoveLinks: true,
+	dictRemoveFile: 'Remove File',
+	createImageThumbnails: false,
+}; */
+
+var scrollTopInterval;
+
+function open_add_images() {
+	$('.attachment_container').addClass( 'active' );
+	$('.open_add_images').hide();
+	scrollTopStart();
+	setTimeout( scrollTopEnd, 500 );
+	$( '#form_support input[name="has_files"]' ).val( '1' );
+}
+function scrollTopStart() {
+	scrollTopInterval = setInterval( scrollSuppTop, 20 );
+	$( '#form_support input[name="has_files"]' ).val( '0' );
+}
+function scrollTopEnd() {
+	clearInterval( scrollTopInterval );
+}
+function scrollSuppTop() {
+	$('#acnc-support').scrollTop( $('#acnc-support').outerHeight() );
+}
+var defaultFileInputs;
+function close_add_images() {
+	$('.attachments_dropzone .fallback').html( defaultFileInputs );
+	$('.attachment_container').removeClass( 'active' );
+	$('.open_add_images').show();
+}
+function do_submit_support_form() {
+	$('.attachment_container .instruc').fadeOut();
+	console.log( 'Submitting our form...' );
+	// try {
+		$.ajax({
+			url: '/_ajax/support2020.php',
+			type: 'POST',
+			data: new FormData( $('#form_support')[0] ),
+			cache: false,
+			contentType: false,
+			processData: false,
+			complete: function(data) {
+				console.log( 'Form response!' );
+				console.log( data );
+				if ( data.responseText ) console.log( data.responseText );
+				if(data.responseText && data.responseText.indexOf('Uh oh!')!=-1){
+					hideLoading();
+					showSubmit();
+					alert(data.responseText);
+					return;
+				}
+				// $('#txtName').val('');
+				// $('#txtEmail').val('');
+				// $('#txtPhone').val('');
+				// $('#txtQuestion').val('');
+				$('.support_module .success_container .message').html( 'Thank you for contacting ACNC support. We will respond to your message as soon as possible.' );
+				$('#form_support').fadeOut( 300 );
+				$('.support_module .success_container').delay( 300 ).fadeIn( 300 );
+			},
+			xhr: function() {
+				var myXhr = $.ajaxSettings.xhr();
+				if( myXhr.upload ){
+					myXhr.upload.addEventListener( 'progress', onUploadProgress, false );
+				}
+				return myXhr;
+			},
+		});
+}
+function onUploadProgress( e ){
+	// console.log( e );
+	if ( e.lengthComputable ) {
+		var max = e.total;
+		var current = e.loaded;
+		var perc = ( current * 100 )/max;
+		// console.log( perc+'%' );
+		updateProgressBar( perc );
+		if( perc >= 100 ) {
+			console.log( 'FILE UPLOAD COMPLETE' );
+		}
+	}
+}
+function updateProgressBar( val ) {
+	if ( !$('#file_progress:visible').length ) $('#file_progress').fadeIn();
+	$('#file_progress_bar').css({width:val+'%'});
+	$('#file_progress_val').html( Math.floor(val)+'%' );
+}
+function showLoading() {
+	$('.support_module .submit').hide();
+	$('.support_module .loading').show();
+}
+function hideLoading() {
+	$('.support_module .loading').hide();
+}
+function showSubmit() {
+	$('.support_module .submit').show();
+}
+function validateEmail(email) {
+	var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+	return re.test(email);
+}
+function initSupport() {
+	// $('#form_support .row2,#form_support .row3,#form_support .row8,#form_support .row10').hide();
+	$('#form_support .row2,#form_support .row3,#form_support .row10').hide();
+}
+function getDropzoneFiles() {
+	var files = Dropzone.instances[0].files;
+	var fileNames = [];
+	for( var i in files ) {
+		var f = files[i];
+		if ( f.accepted && f.xhr && f.xhr.responseText ) {
+			var str = f.xhr.responseText;
+			var arr = str.split( '||' );
+			for( var i = 0; i < arr.length; i++ ) {
+				var arr2 = arr[i].split( '|:|' );
+				if( arr2.length == 2 && arr2[0] == 'filename' ) fileNames.push( arr2[1] );
+			}
+		}
+	}
+	return fileNames;
+}
+
+$(document).ready(function(){
+
+	defaultFileInputs = $('.attachments_dropzone .fallback').html();
+
+	var has_files = $( 'input[name="file1"]' ).val() || $( 'input[name="file2"]' ).val();
+	$( 'input[name="has_files"]' ).val( has_files ? '1' : '0' );
+
+	// $("#form_support").submit( function( e ) {
+	$("#form_support .submit").click( function( e ) {
+
+		e.preventDefault();
+
+		showLoading();
+		// initialize vars
+		var err = '';
+		var validateMe = [
+			[ $( '#form_support input[name="name"]' ), 'text', 'Your first and last name is required' ],
+			[ $( '#form_support input[name="email"]' ), 'email', 'A valid email address is required' ],
+			[ $( '#form_support input[name="subject"]' ), 'text', 'The message subject is required' ],
+			[ $( '#form_support textarea[name="message"]' ), 'text', 'Please enter a message' ],
+			[ $( '#form_support input[name="answer"]' ), 'text', 'Please answer: What is 6 plus 5 ?' ],
+		];
+		// loop through form elements and validate
+		checkvals : for ( var i = 0; i < validateMe.length; i++ ) {
+			var v = validateMe[i];
+			if ( v[0].val() === '' ) {
+				err = v;
+				break checkvals;
+			}
+			// check for valid
+			switch ( v[1] ) {
+				case 'email':
+					if ( !validateEmail(v[0].val()) ) {
+						err = v;
+						break checkvals;
+					}
+					break;
+			}
+		}
+		if ( err != '' ) {
+			alert( err[2] );
+			err[0].focus();
+			hideLoading();
+			showSubmit();
+			return false;
+		}
+
+		// We're good! submit the form
+		console.log( 'Validated...' );
+
+		console.log( new FormData( $('#form_support')[0] ) );
+
+		do_submit_support_form();
+
+		return false;
+
+	} );
+
+	setTimeout( initSupport, 100 );
+
+	$('input[name="file1"],input[name="file2"]').change(function(){
+		if (
+		$(this)[0]
+		&& $(this)[0].value
+		) {
+			var arr = $(this)[0].value.split('.');
+			var suffix = arr[arr.length-1];
+			if ( suffix != 'zip' && suffix != 'rar' && suffix != 'tar' && suffix != '7z' && suffix != 'tgz' ) {
+				alert( 'Only the following file formats are allowed: .zip, .rar, .tar, .7z, .tgz' );
+				$(this).val('');
+			}
+		}
+		if (
+		$(this)[0]
+		&& $(this)[0].files
+		&& $(this)[0].files.length
+		&& $(this)[0].files[0]
+		&& $(this)[0].files[0].size
+		&& $(this)[0].files[0].size > 100000000
+		) {
+			alert( 'Files cannot exceed 100 MB.' );
+			$(this).val('');
+		}
+	});
+
+
+});
+</script>
+</div>
+<script>
+// support_link_interactive
+// rel=kb-acnc-support
+function showSupp( e ) {
+	// var target = $(e.currentTarget);
+	// if ( !target || !target.attr('rel') ) return false;
+	// var modalTarget = $( '#'+target.attr('rel') );
+	var modalTarget = '#acnc-support';
+	var h = $(window).outerHeight() * 0.9;
+	var w = $(window).outerWidth() * 0.9;
+	if ( h > 600 ) h = 750;
+	if ( w > 600 ) w = 600;
+	$( modalTarget ).dialog({
+		// autoOpen: false,
+		height: h,
+		width: w,
+		modal: true,
+		resizable: false,
+		draggable: false,
+		closeOnEscape: true,
+		open: function() {
+			$('body').addClass('noscroll');
+		},
+		close: function() {
+			$('body').removeClass('noscroll');
+		},
+	});
+	$('.ui-widget-overlay').click( function(){
+		$('.ui-dialog-content').dialog('close');
+	} );
+	return false;
+}
+$(document).ready(function(){
+	$('.support_link_interactive').click( showSupp );
+});
+</script>
+<style>
+.ui-widget-overlay {
+   background: #777777;
+   opacity: .40;
+   filter: Alpha(Opacity=40);
+}
+body.noscroll {
+	overflow: hidden !important;
+}
+</style>
+
+</body>
+</html>
+<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/2b1285c347250efff5c196c2d/735ee7f56bcdb39e866101c78.js");</script>
+
+
